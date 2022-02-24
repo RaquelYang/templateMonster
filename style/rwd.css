@@ -1,0 +1,251 @@
+@media (max-width: 1200px) {
+  .icon .fa-search {
+    display: none;
+  }
+  .menu li {
+    padding: 0 0.8rem;
+  }
+}
+@media (max-width: 992px) {
+  .logoleft {
+    display: block;
+  }
+  .logo {
+    margin: auto;
+    width: 40%;
+    padding-top: 1rem;
+  }
+  .logo img {
+    vertical-align: middle;
+  }
+  .menu {
+    display: flex;
+    margin: auto;
+    /* padding: 0 1rem; */
+  }
+  .menu li {
+    float: none;
+    padding: 0.3rem 1rem;
+  }
+  .icon .fa-shopping-cart {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .full {
+    height: 50vh;
+  }
+  .fullimg {
+    height: 50vh;
+  }
+  .fullimg .text {
+    top: 60%;
+  }
+  .fullimg .text h2 {
+    font-size: 2rem;
+  }
+  .line {
+    text-align: center;
+  }
+  .container.card4 {
+    border: none;
+  }
+  .container .row .box ~ .box::after {
+    border-left: none;
+  }
+  .container .row .box {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .container .row .box:nth-child(even) {
+    border-right: 1px solid #ffffff70;
+  }
+  .container .row .box:nth-child(odd) {
+    border-left: 1px solid #ffffff70;
+  }
+  .box:nth-child(odd) .txt {
+    border-right: 1px solid #ffffff70;
+  }
+  .ourservices .phonemid {
+    order: -1;
+    text-align: center;
+  }
+
+  .ourservices .boxservice {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 !important;
+  }
+  .ourservices .left .image {
+    order: -1;
+  }
+  .ourservices .txt {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .ourservices .boxservice:first-child.left .txt,
+  .ourservices .boxservice:nth-child(2).left .txt,
+  .ourservices .boxservice:nth-child(3).left .txt {
+    text-align: center;
+  }
+  .ourservices .txt p {
+    font-size: 15px;
+  }
+  .percentwrap .percentage .txt {
+    padding-top: 4rem;
+  }
+  .lastest .txt {
+    text-align: center;
+  }
+  .lastest .bottom {
+    display: block;
+    text-align: center;
+  }
+  .lastest .bottom .fa-comment-alt {
+    margin-left: 0.6rem;
+  }
+  .lastest .bottom .readmore {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  .choosewrap .card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .choosewrap h3 {
+    font-size: 1.5rem;
+  }
+  .choosewrap p {
+    font-size: 1.2rem;
+  }
+  .subscribewrap h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  .clientswrap .row div {
+    padding: 1rem 3rem;
+    text-align: center;
+  }
+  .clientswrap .row img {
+    width: 50%;
+  }
+  .footsearch input,
+  .footsearch button {
+    display: block;
+  }
+  .footsearch input {
+    width: 100%;
+  }
+  .footsearch button {
+    position: static;
+    width: 50%;
+    margin-top: 1rem;
+  }
+  .footerlast {
+    padding: 0;
+  }
+  .footerwrap {
+    justify-content: start;
+  }
+  .footerwrap .number {
+    padding-right: 1rem;
+  }
+  .footer .space {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fullimg .big {
+    display: none;
+  }
+  .headerbtn .btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 13rem;
+    margin-top: 1rem;
+  }
+  .container .row .box:nth-child(even) {
+    border-right: none;
+  }
+  .container .row .box:nth-child(odd) {
+    border-left: none;
+  }
+  .card4 .info-fz {
+    font-size: 3rem;
+  }
+  .lastest h2,
+  .clientswrap h2,
+  .testimonials h2 {
+    font-size: 2rem;
+  }
+  .lastestwrap .image {
+    text-align: center;
+  }
+  .lastestwrap .image img {
+    width: 80%;
+  }
+  .choosewrap .card {
+    margin: 2rem 6rem;
+  }
+  .subscribewrap input {
+    width: 60%;
+  }
+  .clientswrap .row img {
+    width: 70%;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .txt {
+    padding: 0;
+  }
+  .footer .navtxt ul {
+    margin: 0 8rem;
+    text-align: start;
+  }
+  .footer .navtxt {
+    margin-top: 4rem;
+  }
+  .footer .recentpost {
+    margin-top: 2rem;
+  }
+  .footer .item p {
+    width: 250px;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .footer .footerwrap {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .footitem {
+    width: 100%;
+  }
+  .footsearch button {
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .footsearch button:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .footerlink {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+  }
+  .facebook,
+  .rss {
+    margin: 0 1rem;
+    display: block;
+    width: 100px;
+  }
+}
+@media (max-width: 500px) {
+  .clientswrap .row img {
+    width: 100%;
+  }
+}

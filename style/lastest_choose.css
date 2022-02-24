@@ -1,0 +1,150 @@
+.lastest {
+  margin-bottom: 3rem;
+}
+.lastest .lastestwrap {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.lastest h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: var(--secondary);
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.lastest .txt {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.lastest h4 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: var(--secondary);
+}
+.lastest p {
+  color: rgb(117, 135, 145);
+}
+.lastest .image img {
+  width: 100%;
+}
+.lastest .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.lastest .bottom i {
+  color: var(--primary);
+}
+.lastest .bottom span {
+  color: var(--grey-light);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.lastest .bottom a {
+  text-decoration: none;
+}
+.lastest .bottom span.readmore {
+  color: var(--primary);
+  font-size: 0.9rem;
+}
+.lastest .bottom span.readmore:hover {
+  color: var(--grey-light);
+}
+.choosewrap {
+  background: var(--grey-lighter);
+}
+.choosewrap h3 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: var(--secondary);
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-top: 4rem;
+}
+.choosewrap p {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 0;
+  color: var(--grey);
+}
+.choosewrap .container {
+  margin-top: 5rem;
+  padding-bottom: 3rem;
+}
+.choosewrap .col-lg-3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.choosewrap .card {
+  background: white;
+  border-radius: 1rem;
+}
+.choosewrap .card-body {
+  text-align: center;
+  padding-top: 3rem;
+}
+.choosewrap h6 {
+  font-size: 1.5rem;
+  color: var(--grey-light);
+}
+.choosewrap h2 {
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  color: var(--secondary);
+}
+.choosewrap span {
+  font-size: 1.3rem;
+}
+.choosewrap .txttop {
+  position: relative;
+  left: 5px;
+  bottom: 10px;
+}
+.cardfooter ul {
+  padding: 0;
+}
+.cardfooter li {
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--grey-light);
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #dddddb66;
+}
+
+.card:hover {
+  background-color: var(--primary);
+}
+.card:hover li {
+  border-top: 1px solid #fff3;
+}
+.card:hover .card-body h6,
+.card:hover .cardfooter li,
+.card:hover .card-body span,
+.card:hover .card-body h2 {
+  color: white;
+}
+.card:hover li:last-child {
+  background-color: white;
+}
+.card:hover li:last-child a {
+  color: var(--secondary);
+}
+.cardfooter li:last-child {
+  background-color: var(--primary);
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.cardfooter li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+.cardfooter li:last-child:hover,
+.cardfooter li:last-child:hover a {
+  color: white;
+  background-color: var(--primary);
+}

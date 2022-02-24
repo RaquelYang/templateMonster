@@ -1,0 +1,125 @@
+.subscribewrap {
+  padding: 10rem 0;
+  background: url("../images/image-5.jpg") no-repeat center top/cover;
+}
+.subscribewrap .text {
+  color: white;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.subscribewrap h2 {
+  font-size: 3rem;
+}
+.subscribewrap p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.subscribewrap form {
+  text-align: center;
+}
+.subscribewrap input {
+  padding: 1rem 1.5rem;
+  width: 30%;
+  margin-right: 2rem;
+  border-radius: 2rem;
+  background-color: #fff2;
+  border: none;
+  color: white;
+  outline: none;
+}
+.subscribewrap input::placeholder {
+  color: white;
+}
+.subscribewrap button {
+  background: var(--primary);
+  color: white;
+  font-weight: 900;
+  border: 3px solid var(--primary);
+}
+.subscribewrap button:hover {
+  background: transparent;
+  color: var(--primary);
+  border: 3px solid var(--primary);
+  cursor: pointer;
+}
+.clients {
+  border-bottom: 1px solid var(--grey-lighter);
+}
+.clientswrap {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.clientswrap h2 {
+  padding-bottom: 3.5rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  color: var(--secondary);
+}
+.clientswrap .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.clientswrap .row img {
+  width: 100%;
+}
+.testimonials {
+  text-align: center;
+  padding-top: 4rem;
+}
+.testimonials h2 {
+  font-size: 3rem;
+  color: var(--secondary);
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+.testimonials p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--grey);
+}
+/*  */
+
+.swiper-slide {
+  padding: 0 1rem;
+}
+.swiper-slide img {
+  margin-bottom: 1rem;
+}
+.swiper-slide h6 {
+  color: var(--secondary);
+  font-size: 1.4rem;
+}
+.swiper-slide p {
+  font-size: 0.8rem;
+  color: var(--grey-light);
+  margin-bottom: 1rem;
+}
+.swiper-slide .p {
+  text-transform: uppercase;
+}
+.swiper-slide .sliderdescription {
+  color: var(--grey-light);
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: var(--secondary);
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+}
+
+.arrow .next:hover,
+.arrow .prev:hover {
+  color: var(--primary);
+}
+.arrow .next,
+.arrow .prev {
+  margin: 0 1rem;
+  cursor: pointer;
+}

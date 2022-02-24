@@ -1,0 +1,142 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(7, 28, 51, 0.8);
+  z-index: 2;
+}
+header ul li {
+  position: relative;
+}
+header ul.menu ul {
+  display: none;
+  background-color: #fff;
+  list-style: none;
+  padding-inline-start: 0px;
+  position: absolute;
+  top: 40px;
+  left: -100px;
+}
+
+header ul.menu ul li {
+  padding: 1rem 2rem;
+  width: 300px;
+}
+
+header ul.menu ul li:first-child {
+  padding-top: 2rem;
+}
+header ul.menu ul li:last-child {
+  padding-bottom: 2rem;
+}
+header ul.menu ul li a {
+  color: var(--secondary);
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+header ul ul li a:hover {
+  color: (--primary);
+}
+header ul li:hover > ul {
+  display: block;
+  list-style: none;
+}
+.logoleft {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 20%;
+  margin-right: 4rem;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.navright {
+  display: flex;
+}
+.menu {
+  /* background-color: lightcoral; */
+
+  /* display: flex; */
+  justify-content: space-between;
+  /* width: 60%; */
+  list-style: none;
+  padding-inline-start: 0px;
+  cursor: pointer;
+}
+
+.menu li {
+  padding: 0 1rem;
+  float: left;
+  font-size: 0.8rem;
+}
+.menu li:hover,
+.menu li a:hover {
+  color: var(--primary);
+}
+.menu li a,
+.icon a {
+  text-decoration: none;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.icon i {
+  padding: 0 1rem;
+}
+.icon i:hover {
+  color: #fff;
+}
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+.fullimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+.fullimg .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 1200px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* background-color: lightcoral; */
+}
+.fullimg .text h2 {
+  font-size: 4.5rem;
+}
+
+.fullimg .text .txt {
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.fullimg .text .big {
+  line-height: 40px;
+  font-size: 1.4rem;
+}
+.fullimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.btn {
+  padding: 15px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 0 10px;
+}

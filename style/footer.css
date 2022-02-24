@@ -1,0 +1,151 @@
+.footer {
+  background-color: rgb(13, 31, 56);
+  padding: 3rem 0;
+}
+.footer .txt {
+  padding-right: 4rem;
+  color: var(--grey-light);
+}
+.footer .txt p {
+  opacity: 0.5;
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+.footer .txt img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.footer .txt .footermid {
+  color: white;
+  opacity: 1;
+  margin: 0.3rem 0;
+}
+.footer .txt .p {
+  margin-top: 2rem;
+}
+.footer .txt .p2 {
+  margin-bottom: 2rem;
+}
+.navtxt h6 {
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+.navtxt ul {
+  color: var(--primary);
+  padding-inline-start: 0.5rem;
+}
+.navtxt ul li {
+  margin: 1rem 0;
+  cursor: pointer;
+  list-style: none;
+}
+.navtxt ul li::before {
+  content: "";
+  padding: 0.5rem;
+}
+
+.navtxt ul li:hover {
+  color: white;
+}
+.footer .recentpost {
+  color: white;
+  font-size: 1.2rem;
+}
+.footer .item {
+  margin-top: 2rem;
+  padding-right: 1.2rem;
+}
+.footer .item a {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.footer .item a:hover {
+  color: white;
+}
+.footer .item p {
+  color: var(--grey);
+  border-bottom: 1px solid var(--grey);
+  padding-bottom: 1rem;
+  opacity: 0.5;
+  font-size: 0.6rem;
+}
+.footerlast {
+  padding: 0 1rem;
+}
+.footerwrap {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.footerwrap .number {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+.footerwrap .wrapbox span {
+  color: white;
+}
+.footitem {
+  color: var(--grey);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.footsearch {
+  position: relative;
+}
+.footsearch input {
+  padding: 0.8rem 0.5rem;
+  border-radius: 30px;
+  outline: none;
+  width: 80%;
+  border: 5px solid transparent;
+}
+.footsearch button {
+  padding: 0.8rem 0.5rem;
+  border-radius: 30px;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  border: 5px solid var(--primary);
+  background: var(--primary);
+  color: white;
+  font-weight: bolder;
+}
+.footsearch button:hover {
+  background: white;
+  color: var(--primary);
+  border: 5px solid var(--primary);
+}
+.footerlink {
+  display: flex;
+  padding-top: 2rem;
+  padding-right: 5rem;
+}
+.footerlink i {
+  font-size: 2rem;
+}
+.footerlink .facebook,
+.footerlink .rss {
+  display: flex;
+}
+
+.footerlink .facebook:hover i,
+.footerlink .rss:hover i {
+  color: white;
+  cursor: pointer;
+}
+.footerlink .facebook i {
+  color: rgb(59, 113, 179);
+  padding-right: 0.6rem;
+}
+.footerlink .rss i {
+  color: var(--primary);
+  padding-right: 0.6rem;
+}
+.footerlink p {
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.padding-e50 {
+  padding: 0 50px 0 0;
+}
+.line {
+  position: relative;
+}
+.line h3::after {
+  content: "";
+  border-top: 2px solid var(--primary);
+  display: block;
+  width: 80px;
+  height: 1px;
+  position: absolute;
+  top: 40px;
+}
+.line h3 {
+  font-weight: 300;
+}
+.box {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  position: relative;
+}
+.wrap {
+  background-color: rgb(255, 176, 50);
+  margin-top: 4rem;
+}
+.lh {
+  line-height: 1.6rem;
+}
+.txt .info-fz {
+  font-size: 4rem;
+}
+.card4 {
+  border-right: 1px solid #ffffff70;
+  border-left: 1px solid #ffffff70;
+}
+.row .box ~ .box::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  border-left: 1px solid #ffffff70;
+}
